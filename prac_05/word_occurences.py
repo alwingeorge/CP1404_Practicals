@@ -1,6 +1,7 @@
 
-unique_words = {}
+
 def main():
+    unique_words = {}
     sentence = input("Sentence: ")
     words = sentence.split()
     for word in words:
