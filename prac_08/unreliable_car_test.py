@@ -5,7 +5,7 @@ def main():
     """Test some UnreliableCars."""
     # Different Cars
     good_car = UnreliableCar("Not Bad Boss", 100, 89)
-    bad_car = UnreliableCar("Git Gud", 100, 9)
+    bad_car = UnreliableCar("Get Better", 100, 9)
     # Testing who can get to x distance first
     for i in range(1, 30):  # Range of KM
         print("Attempting to drive {}km:".format(i))
